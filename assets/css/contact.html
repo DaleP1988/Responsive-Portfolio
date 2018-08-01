@@ -1,104 +1,244 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title> About Me </title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+  <title>Document</title>
+
+
+ <link rel="stylesheet" href="reset.css">
+ <link rel="stylesheet" href="style.css">
+
+
+ 
 </head>
-
 <body>
 
-<header id="header3">
-    <div class="name3">
-        <h1>Dale Padelford</h1>
-    </div>
-     
-        <div class="nav3">
-                <nav>  
-                        <a href="file:///Users/garnetdianthus/Basic-Portfolio/assets/css/index.html">About</a> |
-                        <a href="file:///Users/garnetdianthus/Basic-Portfolio/assets/css/portfolio.html">Portfolio</a> |
-                        <a href="file:///Users/garnetdianthus/Basic-Portfolio/assets/css/contact.html">Contact</a>  
-                </nav> 
-            
-    </div>
-
-</header>
-          
+<header>
    
-   <div class="clear3">
-    <section id="bgd3">
-     <div class="wrapper3">
-
-<div class="contact">
-        <h2>Contact</h2>
-    </div>
-
-
-        <hr>
-
-        <div class="container3">
-        <form action="/action_page.php">
-            <div class="row">
-                <div class="col-25">
-                    <label for="name">Name</label>
-                </div>
-                <div class="col-75">
-                    <input type="text" id="name2" name="Name" style="width:600px" placeholder= "John Smith">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="email">Email</label>
-                </div>
-            <div class="col-75">
-                <input type="text" id="email2" name="Email" style="width:600px" placeholder= "123@example.com">
-                </div>
-            </div>
-            <div class="row">
-                 <div class="col-25">
-                     <label for="subject">Subject<id="subject"></id></label>
-                 </div>
-                    <div class="col-75">
-                        <textarea id="subject2" name="subject" style="height:150px;width:600px"></textarea>
-                    </div>
-                </div>
-
-                <br>
-
-                <div class="row">
-                    <input type="submit" value="Submit" id="submit">
-                </div>
-            </form>
-        </div>
-
-   
-        
-        </div>
-    </section>
+<div class = "contain">
+    <a href = "index.html" id = "logo" > Dale Padelford</a>
+        <nav>
+            <a href= "index.html" id="about" >About</a>
+            <a href= "portfolio.html" id="portfolio" >Portfolio</a>
+            <a href= "contact.html" id="contact" >Contact</a>
+         </nav>  
 </div>
-   
+</header>
+
+<div id="main-container"  class="contain">
+  <div id="content3">
+      <h1 class = "title"><strong>Contact</strong></h1>
+      <hr>
+        <form action="action_page.php">
+            <label for="fname">Name<br></label>
+            <input type= "text" id="name" name="firstname" placeholder= "John Smith">
+            <br>
+            <label for="email">Email<br></label>
+            <input type= "text" id= "email" name= "email" placeholder= "123@gmail.com">
+            <br>
+            <label for="message">Message<br></label>
+            <input type= "text" id= "message" name= "message" placeholder= "">
+            <br>
+            <input type= "submit" id="submit" value="Submit">
+
+        </form>
+                        
+      </div>
+                        
+  </div>
+
+  
         <!-- need to make this thicker-->
     
 
-<div class="footer">&copy; Copyright</div> 
-     
+<div class="footer">&copy; Copyright 2018 Dale Padelford </div> 
 
-<!-- add special markings for the copyright symbol-->
+
+
 
 <style>
 
-@media screen and (max-width: 640px) {
+body {
+
+background-image:url(background.jpg);
+width: 100%;
+height: 100%;
+margin: 0;
+   
+}
+
+header {
+
+background-color: #ffffff;
+border-bottom-color: #cccccc;
+border-style: solid;
+border-bottom-width: 2px;
+color: #cccccc;
+padding-bottom: 70px;
 
 
 }
 
-@media screen and (max-width: 768px){
+#logo {
+
+background-color: #4aaaa5;
+float: left;
+margin-left: 100px;
+color:  #ffffff;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 30px;
+padding: 20px;
+font-weight: bold;
+
+}
+
+a {
+
+color:#777777;
+text-decoration: none;
+font-size: 14px;
+font-family: Arial, Helvetica, sans-serif;
 
 
+}
 
+#portfolio, #contact {
+
+border-left-style: solid;
+border-width: 1px;
+border-left-color: light grey;
+padding-left: 10px;
+line-height: 60px;
+
+}
+
+#about, #portfolio {
+
+padding-right: 10px;
+line-height: 60px;
+
+
+}
+
+nav {
+
+ float:right; 
+ margin-right: 20%;  
+}
+
+h1 {
+
+color: #4aaaa5;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 24px;
+font-weight: bold;
+
+} 
+
+#content3 {
+
+background-color:#ffffff;
+height: 350px;
+width: 60%;
+padding: 20px;
+margin-left: 10%;
+border-style: solid;
+border-color: #dddddd;
+border-width: 2px;
+background-color: #ffffff;
+border-style: solid;
+border-color: #dddddd;
+border-width: 2px;
+
+}
+
+
+#name, #email, #message {
+
+margin-top:15px;
+margin-bottom: 20px;
+width: 80%;
+}
+
+#message {
+
+height: 40px;
+
+}
+
+#submit {
+
+background-color: #4aaaa5;
+color: #ffffff;
+padding: 10px;
+}
+
+form {
+
+color:#666666;
+font-family:Arial, Helvetica, sans-serif;
+margin-top: 15px;
+}
+
+
+.footer {
+
+background-color: #666666;
+color: white;
+padding-top: 30px;
+font-size: 12px;
+padding-bottom: 7px;
+border-top: 4px solid #4aaaa5;
+text-align:center;
+position:fixed;
+width: 100%;
+left: 0;
+bottom: 0;
+}
+
+@media screen and (max-width: 640px) {
+
+#content3 {
+
+    width: 100%;
+    padding-top: 15%;  
+}
+
+nav {
+
+    margin-top: 5%;
+    padding-right: 140px;
+}
+
+p {
+
+    font-size: 13px;
+}
+}
+
+@media screen and (max-width: 768px) {
+
+#logo {
+  
+  margin-left: 10%;
+
+}
+#content3 {
+
+    width: 70%;
+      
+}
+
+p {
+
+    font-size: 13px;
+}
+}
+
+nav {
+  margin-right: 8%;
 }
 
 @media screen and (max-width: 980px){
@@ -108,14 +248,10 @@
 
 
 
-
-
-
 </style>
 </body>
+<html>
 
-
-</html>
 
 <!--  <hr> is a horizontal rule tag that creates a line . 
 

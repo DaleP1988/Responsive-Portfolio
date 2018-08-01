@@ -1,117 +1,314 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title> About Me </title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+  <title>Document</title>
+
+<link rel="stylesheet" href="reset.css">
+ <link rel="stylesheet" href="style.css">
+
 </head>
-
 <body>
 
+<header>
+   
+<div class = "la">
+    <a href = "index.html" id = "logo" > Dale Padelford</a>
+        <nav>
+            <a href= "index.html" id="about">About</a>
+            <a href= "portfolio.html" id="portfolio">Portfolio</a>
+            <a href= "contact.html" id="contact" >Contact</a>
+         </nav>  
+   </div>
+</header>
 
- <header id="header2">
-    <div class="name2">
-         <h1>Dale Padelford</h1>
+<div id="main-container"  class="contain">
+    <div class="content1">
+   
+        <h1 class = "title"><strong>Portfolio</strong></h1>
+        <hr>
+           
+   
+       <!-- box with image check the wk3 positioning exercise-->
+   
+   
+   <img src="../images/Personal.jpg"  alt:"personal" id="personal" style:"width:140px;
+           height:100px;" class: "portfolio">
+       <a href="assets/images/Personal.jpg" id="imgtext">Personal</a>
+   
+   
+   <img src="../../games3.jpg"  alt: "data" id="data" style:"width:140px;
+           height:100px;" class: "portfolio">
+           <a href="../../game.html" id="imgtext">Games</a>
+     
+   
+    <img src="../images/Business.jpg"  alt:"project management" id="project" style:"width:150px;
+       height:100px;" class: "portfolio">
+       <a href="images/Business.jpg" id="imgtext">Productivity</a>
+   
+       
+    <img src="../images/BusinessSite.jpg"  alt:"business" id="business" style:"width:140px;
+           height:100px;" class: "portfolio">   
+           <a href="assets/images/BusinessSite.jpg" id="imgtext">Business</a>
+   
+           
+    <img src="../images/PersonalBlog.jpg"  alt:"Blog" id="blog" style:"width:140px;
+       height:100px;" class: "portfolio">
+       <a href="assets/images/PersonalBlog.jpg" id="imgtext">Blog</a>
+   
+  
     </div>
- 
-<div class="nav2">
-<nav>  
-        <a href="file:///Users/garnetdianthus/Basic-Portfolio/assets/css/index.html">About</a> |
-        <a href="file:///Users/garnetdianthus/Basic-Portfolio/assets/css/portfolio.html">Portfolio</a> |
-        <a href="file:///Users/garnetdianthus/Basic-Portfolio/assets/css/contact.html">Contact</a>  
-</nav> 
 </div>
 
-     
- </header>  
-    
- 
-    <div class="clear2">
-     <section id="bdg2">
-     <div class="container2">
-    
-    <div class="portfolio">
-       <h2>Portfolio</h2>
-    </div>
+   
+
+
+<div id="second-container"  class="contain">
+    <div class="content2">
+   
+        <h3>Connect with Me</h3>
 
         <hr>
-        
 
-    <!-- box with image check the wk3 positioning exercise-->
+        <a href="" id="links" target="_blank"><img src="assets/images/if_github-square-social-media_764894.png" height="51"/>
+        </a>
 
+        <a href="" id="links"target="_blank"><img src="assets/images/if_square-linkedin_317725.png" height="51"/>
+        </a>
 
-
-    <div class="personal"><img src="file:///Users/garnetdianthus/Basic-Portfolio/assets/images/Personal.jpg"  alt:"personal" id="personal" style:"width:140px;
-        height:100px;">
-    <a href="file:///Users/garnetdianthus/Basic-Portfolio/assets/images/Personal.jpg">Personal</a></div>
-
-
-
-    <div class="data"><img src="file:///Users/garnetdianthus/Basic-Portfolio/assets/images/DataManagement.jpg"  alt: "data" id="data" style:"width:140px;
-        height:100px;">
-        <a href="file:///Users/garnetdianthus/Basic-Portfolio/assets/images/DataManagement.jpg">Data</a></div>
-  
-
-   <div class="project"><img src="file:///Users/garnetdianthus/Basic-Portfolio/assets/images/Business.jpg"  alt:"project management" id="project" align="bottom" style:"width:150px;
-    height:100px;">
-    <a href="file:///Users/garnetdianthus/Basic-Portfolio/assets/images/Business.jpg">Project Management</a></div>
+ </div>
+</div>
 
     
-    <div class="business"><img src="file:///Users/garnetdianthus/Basic-Portfolio/assets/images/BusinessSite.jpg"  alt:"business" id="business" align="top" style:"width:140px;
-        height:100px;">   
-        <a href="file:///Users/garnetdianthus/Basic-Portfolio/assets/images/BusinessSite.jpg">Business</a></div>
-
-        
-   <div class="blog"><img src="file:///Users/garnetdianthus/Basic-Portfolio/assets/images/PersonalBlog.jpg"  alt:"Blog" id="blog" align="top"style:"width:140px;
-    height:100px;">
-    <a href="file:///Users/garnetdianthus/Basic-Portfolio/assets/images/PersonalBlog.jpg">Blog</a></div>
-
-
-    </div>
-
-    </section>
-
-   </div>
-
-    
-     <!-- need to make this thicker-->
+   
        
-    <footer>&copy; Copyright</footer>
-            
-      
-     
+        <!-- need to make this thicker-->
+          
+       <footer>&copy; Copyright 2018 Dale Padelford</footer>
+               
+        
+        
+   
+   <!-- add special markings for the copyright symbol-->
+   
+ <style>
 
-<!-- add special markings for the copyright symbol-->
+body {
 
-<style>
+background-image:url(background.jpg);
+width: 100%;
+height: 100%;
+margin: 0;
+   
+}
+
+header {
+
+background-color: #ffffff;
+border-bottom-color: #cccccc;
+border-style: solid;
+border-bottom-width: 2px;
+color: #cccccc;
+padding-bottom: 70px;
+padding-right:15%;
+padding-left: 5%;
+
+}
+
+
+#logo {
+
+background-color: #4aaaa5;
+float: left;
+color:  #ffffff;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 30px;
+padding: 20px;
+font-weight: bold;
+
+}
+
+
+a {
+
+color:#777777;
+text-decoration: none;
+font-size: 14px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+
+ float:right;  
+ margin-right: 0;
+}
+
+
+#portfolio, #contact {
+
+border-left-style: solid;
+border-width: 1px;
+border-left-color: light grey;
+padding-left: 10px;
+line-height: 60px;
+}
+
+#about, #portfolio {
+
+padding-right: 10px;
+line-height: 60px;
+}
+
+h1 {
+
+color: #4aaaa5;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 24px;
+font-weight: bold;
+} 
+
+#personal, #project, #data, #business, #blog {
+
+height: 150px;
+width: 220px;
+border-style: solid;
+border-width: 1px;
+border-color:#777777;
+}
+
+#main-container {
+
+border-color: #dddddd;
+width: 80%;
+background-color: #ffffff;
+margin-left: 5%;
+padding: 20px;
+padding-left: 25px;
+float: left;
+background-color: #ffffff;
+border-style: solid;
+border-color: #dddddd;
+border-width: 2px;
+}
+
+#second-container {
+
+width: 15%;
+background-color: #ffffff;
+border-color: #dddddd;
+padding: 20px;
+margin-right: 0px;
+background-color: #ffffff;
+border-style: solid;
+border-color: #dddddd;
+border-width: 2px;
+}
+
+#imgtext {
+
+color: #ffffff;
+background-color: #4aaaa5;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#links {
+
+color:#666666;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+   
+footer {
+
+background-color: #666666;
+color: white;
+padding-top: 30px;
+font-size: 12px;
+padding-bottom: 3px;
+border-top: 4px solid #4aaaa5;
+text-align:center;
+position:fixed;
+width: 100%;
+left: 0;
+bottom: 0;
+}
 
 
 
 @media screen and (max-width: 640px) {
 
+#main-container {
 
+    width: 70%;
+    padding-top: 15%;  
 }
 
-@media screen and (max-width: 768px){
+nav {
 
+    margin-top: 5%;
+    padding-right: 100px;
+    margin-top: 5%;
+}
 
+p {
 
+    font-size: 13px;
+}
+}
+
+@media screen and (max-width: 768px) {
+
+#logo {
+  
+  margin-left: 10%;
+}
+
+#main-container {
+
+width: 70%;
+margin-left: 13%;  
+}
+
+#personal, #project, #data, #business, #blog {
+    margin: 5px;
+}
+
+p {
+
+    font-size: 13px;
+}
+}
+
+nav {
+  margin-right: 8%;
 }
 
 @media screen and (max-width: 980px){
 
 
+#main-container {
+
+width: 80%;
+margin-left: 5%; 
 }
 
-</style>
+
+   
+   </style>
+
+   
+   </body>
+   </html>
+   
+
+      
+     
+
+<!-- add special markings for the copyright symbol-->
 
 
-
-</body>
-</html>
 
 <!--  <hr> is a horizontal rule tag that creates a line. note to self: dont move repo to new folder in finder.
 STILL NEEDS:
